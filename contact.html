@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>Contact Us</title>
+    
+</head>
+
+<body>
+
+
+
+    <nav style="background-color: lightgray;">
+        <a href="index.html">Home</a> |
+        <a href="about/about.html">About Us</a> |
+        <a href="movies.html">Movies</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Contact Us</h1>
+
+    <form action="#" method="post">
+
+        <label>Full Name:</label><br>
+        
+        <input type="text" name="fullname" required/>
+
+        <br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required/><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"/> Male
+        <input type="radio" name="gender" value="female"/> Female<br><br>
+
+        <label>Favorite Topic:</label><br>
+        <select name="topic">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select><br><br>
+
+        <label>Your Message:</label><br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+
+        <input type="checkbox" required/> I agree to terms<br><br>
+
+        <input type="submit" value="Send"/>
+        <input type="reset" value="Clear"/>
+
+    </form>
+
+</body>
+</html>
